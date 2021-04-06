@@ -14,6 +14,11 @@ body{
     margin: 0%;
     background-color: #b07d62;
 }
+ul{
+    color: #ede0d4;
+    text-align: center;
+    list-style-type: circle;
+}
 nav {
     float: right;
 
