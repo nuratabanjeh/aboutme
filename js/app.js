@@ -10,6 +10,7 @@ question1();
 question2();
 question3();
 question4();
+question5();
 
 function question1() {
   let job = prompt('do you think i am an engineer?');
@@ -79,20 +80,23 @@ function question4() {
   }
 }
 
-let series = prompt('do you think i like historical series?');
-switch (series.toLowerCase()) {
-  case 'yes':
-  case 'y':
-    alert('yes i really enjoy them specially "vikings"');
-    score++;
-    break;
-  case 'no':
-  case 'n':
-    alert('wrong');
-    break;
-  default:
-    alert('its ok');
+function question5() {
+  let series = prompt('do you think i like historical series?');
+  switch (series.toLowerCase()) {
+    case 'yes':
+    case 'y':
+      alert('yes i really enjoy them specially "vikings"');
+      score++;
+      break;
+    case 'no':
+    case 'n':
+      alert('wrong');
+      break;
+    default:
+      alert('its ok');
+  }
 }
+
 let myage = parseInt(prompt('guess my age'));
 for (let i = 1; i <= 4; i++) {
   if (myage === 25) {
