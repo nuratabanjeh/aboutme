@@ -6,6 +6,9 @@ userName = userName.toLowerCase();
 alert('Hello ' + userName);
 let score = 0;
 
+question1();
+question2();
+
 function question1() {
   let job = prompt('do you think i am an engineer?');
   switch (job.toLowerCase()) {
@@ -23,21 +26,21 @@ function question1() {
   }
 }
 
-question1();
-
-let freeTime = prompt('do you think i like to spend time with my friends?');
-switch (freeTime.toLowerCase()) {
-  case 'yes':
-  case 'y':
-    alert('ofcourse ' + userName);
-    score++;
-    break;
-  case 'no':
-  case 'n':
-    alert('wrong');
-    break;
-  default:
-    alert('its ok');
+function question2() {
+  let freeTime = prompt('do you think i like to spend time with my friends?');
+  switch (freeTime.toLowerCase()) {
+    case 'yes':
+    case 'y':
+      alert('ofcourse ' + userName);
+      score++;
+      break;
+    case 'no':
+    case 'n':
+      alert('wrong');
+      break;
+    default:
+      alert('its ok');
+  }
 }
 
 let myfriend = prompt('would you like to be my friend?');
