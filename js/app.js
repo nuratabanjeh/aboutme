@@ -9,6 +9,7 @@ let score = 0;
 question1();
 question2();
 question3();
+question4();
 
 function question1() {
   let job = prompt('do you think i am an engineer?');
@@ -61,19 +62,21 @@ function question3() {
   }
 }
 
-let music = prompt('do you think i like classic music?');
-switch (music.toLowerCase()) {
-  case 'yes':
-  case 'y':
-    alert('yes i really enjoy this type of music');
-    score++;
-    break;
-  case 'no':
-  case 'n':
-    alert(' OMG wrong');
-    break;
-  default:
-    alert('its ok');
+function question4() {
+  let music = prompt('do you think i like classic music?');
+  switch (music.toLowerCase()) {
+    case 'yes':
+    case 'y':
+      alert('yes i really enjoy this type of music');
+      score++;
+      break;
+    case 'no':
+    case 'n':
+      alert(' OMG wrong');
+      break;
+    default:
+      alert('its ok');
+  }
 }
 
 let series = prompt('do you think i like historical series?');
