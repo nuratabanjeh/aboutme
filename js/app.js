@@ -8,6 +8,7 @@ let score = 0;
 
 question1();
 question2();
+question3();
 
 function question1() {
   let job = prompt('do you think i am an engineer?');
@@ -43,20 +44,23 @@ function question2() {
   }
 }
 
-let myfriend = prompt('would you like to be my friend?');
-switch (myfriend.toLowerCase()) {
-  case 'yes':
-  case 'y':
-    alert('nice to meet you my friend');
-    score++;
-    break;
-  case 'no':
-  case 'n':
-    alert('you loser');
-    break;
-  default:
-    alert('its ok');
+function question3() {
+  let myfriend = prompt('would you like to be my friend?');
+  switch (myfriend.toLowerCase()) {
+    case 'yes':
+    case 'y':
+      alert('nice to meet you my friend');
+      score++;
+      break;
+    case 'no':
+    case 'n':
+      alert('you loser');
+      break;
+    default:
+      alert('its ok');
+  }
 }
+
 let music = prompt('do you think i like classic music?');
 switch (music.toLowerCase()) {
   case 'yes':
