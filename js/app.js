@@ -91,6 +91,9 @@ for(let i=1; i<=4; i++){
 
     myage=parseInt(prompt('too low try again please'));
   }
+  if(i===4){
+    alert('you lost, im 25 years old');
+  }
 }
 let topsong=['iris','yellow','grace kelly'];
 let usersong = prompt('guess my favorite song');
