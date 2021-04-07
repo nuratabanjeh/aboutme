@@ -11,6 +11,7 @@ question2();
 question3();
 question4();
 question5();
+question6();
 
 function question1() {
   let job = prompt('do you think i am an engineer?');
@@ -97,23 +98,26 @@ function question5() {
   }
 }
 
-let myage = parseInt(prompt('guess my age'));
-for (let i = 1; i <= 4; i++) {
-  if (myage === 25) {
-    alert('right');
-    score++;
-    break;
-  } else if (myage > 25) {
-    console.log(myage);
+function question6() {
+  let myage = parseInt(prompt('guess my age'));
+  for (let i = 1; i <= 4; i++) {
+    if (myage === 25) {
+      alert('right');
+      score++;
+      break;
+    } else if (myage > 25) {
+      console.log(myage);
 
-    myage = parseInt(prompt('too high try again please'));
-  } else if (myage < 25) {
-    myage = parseInt(prompt('too low try again please'));
-  }
-  if (i === 4) {
-    alert('you lost, im 25 years old');
+      myage = parseInt(prompt('too high try again please'));
+    } else if (myage < 25) {
+      myage = parseInt(prompt('too low try again please'));
+    }
+    if (i === 4) {
+      alert('you lost, im 25 years old');
+    }
   }
 }
+
 let topsong = ['iris', 'yellow', 'grace kelly'];
 let usersong = prompt('guess my favorite song');
 for (let i = 1; i <= 6; i++) {
