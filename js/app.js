@@ -12,6 +12,7 @@ question3();
 question4();
 question5();
 question6();
+question7();
 
 function question1() {
   let job = prompt('do you think i am an engineer?');
@@ -118,19 +119,21 @@ function question6() {
   }
 }
 
-let topsong = ['iris', 'yellow', 'grace kelly'];
-let usersong = prompt('guess my favorite song');
-for (let i = 1; i <= 6; i++) {
-  if (
-    usersong === topsong[0] ||
-    usersong === topsong[1] ||
-    usersong === topsong[2]
-  ) {
-    alert('correct');
-    score++;
-    break;
-  } else {
-    usersong = prompt('wrong guess again please');
+function question7() {
+  let topsong = ['iris', 'yellow', 'grace kelly'];
+  let usersong = prompt('guess my favorite song');
+  for (let i = 1; i <= 6; i++) {
+    if (
+      usersong === topsong[0] ||
+      usersong === topsong[1] ||
+      usersong === topsong[2]
+    ) {
+      alert('correct');
+      score++;
+      break;
+    } else {
+      usersong = prompt('wrong guess again please');
+    }
   }
 }
 
