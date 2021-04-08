@@ -1,21 +1,34 @@
 header{
-    background-color: #8a5a44;
-    margin: 0px;
+    background-color: rgba(138, 90, 68,0.3);
+    
+    margin-top: 2%;
+    margin-left: 12.5%;
+    margin-left:12.5%;
+    width: 75%;
     padding: 0%;
+    border-radius: 25px;
 }
 h1 {
     margin-left: 40px;
     display: inline-block;
-    color: #ede0d4;
+    color:black;
     font-size: 40px;
+}
+.unorderedlist{
+    display: table;
+    background-color: rgba(138, 90, 68,0.3);
+    margin-left: 56%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
 }
 body{
     font-family: cursive;
     margin: 0%;
-    background-color: #b07d62;
+    background-image: url("https://pbs.twimg.com/media/DjSKaCoXoAExeVm?format=jpg&name=large");
 }
 ul{
-    color: #ede0d4;
+    color: black;
     text-align: center;
     list-style-type: circle;
 }
@@ -32,23 +45,33 @@ nav ul li{
    
 }
 nav ul li a{
-    color:#ede0d4;
-    text-decoration: none;
+    color:black;
+    
     margin-top: 21.44px;
 }
 p{
-color: #ede0d4;
+color: black;
     text-align: center;
-    background-color:#8a5a44 ;
+    background-color: rgba(138, 90, 68,0.3);
     width: 50%;
     margin-left: 25%;
     margin-right: 25%;
 }
 footer{
-    color: #ede0d4;
+    color: black;
     text-align: center;
-    background-color: #8a5a44;
-    margin: 0px;
-    padding: 0%;
+    background-color:  rgba(138, 90, 68,0.3);
+   display: table;
+   margin-left: 25%;
+   border-radius: 25px;
     
+}
+.ollist{
+    text-align: center;
+    background-color: rgba(138, 90, 68,0.3);
+    display: table;
+   margin-top: 20px;
+   margin-left: 3%;
+   border-radius: 25px;
+   
 }

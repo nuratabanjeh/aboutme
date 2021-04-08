@@ -11,3 +11,4 @@ Author: Nura Tabanjeh.
 I worked with Saif al momani
 we did 7 functions 
 in this project i was the navigator and here is the link for the last pull request (https://github.com/nuratabanjeh/aboutme/pull/7)
+
