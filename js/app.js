@@ -2,7 +2,7 @@
 'usestrict';
 let userName = prompt('welcome to my website, what is your name?');
 userName = userName.toLowerCase();
-//console.log(userName);
+console.log(userName);
 alert('Hello ' + userName);
 let score = 0;
 
